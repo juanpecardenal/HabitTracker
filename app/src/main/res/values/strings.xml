@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tools:locale indica a las herramientas que estos textos están en español. -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="es">
+    <string name="app_name">Habit Tracker</string>
+
+    <!-- Áreas -->
+    <string name="area_diet">Dieta</string>
+    <string name="area_training">Entrenamiento</string>
+    <string name="area_study">Estudio</string>
+    <string name="area_relations">Relaciones</string>
+
+    <!-- Hábitos de ejemplo -->
+    <string name="seed_diet_no_processed">Comer sin ultraprocesados</string>
+    <string name="seed_diet_water">Beber agua</string>
+    <string name="seed_training_workout">Entrenar 45 min</string>
+    <string name="seed_study_pomodoros">Estudiar 2 pomodoros</string>
+    <string name="seed_relations_compliment">Hacer un cumplido sincero</string>
+    <string name="seed_relations_listen">Escuchar sin interrumpir</string>
+
+    <!-- Navegación -->
+    <string name="nav_today">Hoy</string>
+    <string name="nav_habits">Hábitos</string>
+    <string name="nav_progress">Progreso</string>
+    <string name="nav_achievements">Logros</string>
+
+    <!-- Acciones comunes -->
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_accept">Aceptar</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_archive">Archivar</string>
+    <string name="action_restore">Recuperar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_back">Atrás</string>
+    <string name="action_close">Cerrar</string>
+    <string name="action_create_habit">Crear hábito</string>
+    <string name="action_new_habit">Nuevo hábito</string>
+    <string name="action_increase">Aumentar</string>
+    <string name="action_decrease">Disminuir</string>
+    <string name="action_enable">Activar</string>
+    <string name="action_not_now">Ahora no</string>
+    <string name="action_enable_notifications">Activar notificaciones</string>
+
+    <!-- Formatos comunes -->
+    <string name="level_number">Nivel %1$d</string>
+    <string name="xp_gain">+%1$d XP</string>
+    <string name="xp_progress">%1$d / %2$d XP</string>
+    <string name="percent">%1$d%%</string>
+    <string name="delta_points">%1$+d pts</string>
+    <string name="amount_of_target">%1$d / %2$s</string>
+    <string name="state_done">Hecho</string>
+    <string name="state_pending">Pendiente</string>
+
+    <!-- Rachas -->
+    <plurals name="streak_days">
+        <item quantity="one">%d día</item>
+        <item quantity="many">%d días</item>
+        <item quantity="other">%d días</item>
+    </plurals>
+    <plurals name="streak_weeks">
+        <item quantity="one">%d semana</item>
+        <item quantity="many">%d semanas</item>
+        <item quantity="other">%d semanas</item>
+    </plurals>
+
+    <!-- Frecuencias -->
+    <string name="frequency_daily">Cada día</string>
+    <string name="frequency_weekdays">De lunes a viernes</string>
+    <string name="frequency_weekend">Fines de semana</string>
+    <plurals name="frequency_times_per_week">
+        <item quantity="one">%d vez por semana</item>
+        <item quantity="many">%d veces por semana</item>
+        <item quantity="other">%d veces por semana</item>
+    </plurals>
+    <string-array name="weekday_initials">
+        <item>L</item>
+        <item>M</item>
+        <item>X</item>
+        <item>J</item>
+        <item>V</item>
+        <item>S</item>
+        <item>D</item>
+    </string-array>
+
+    <!-- Unidades de la cantidad objetivo -->
+    <string name="unit_name_minutes">Minutos</string>
+    <string name="unit_name_reps">Repeticiones</string>
+    <string name="unit_name_glasses">Vasos</string>
+    <string name="unit_name_pages">Páginas</string>
+    <string name="unit_name_times">Veces</string>
+    <plurals name="unit_minutes">
+        <item quantity="one">%d min</item>
+        <item quantity="many">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="unit_reps">
+        <item quantity="one">%d repetición</item>
+        <item quantity="many">%d repeticiones</item>
+        <item quantity="other">%d repeticiones</item>
+    </plurals>
+    <plurals name="unit_glasses">
+        <item quantity="one">%d vaso</item>
+        <item quantity="many">%d vasos</item>
+        <item quantity="other">%d vasos</item>
+    </plurals>
+    <plurals name="unit_pages">
+        <item quantity="one">%d página</item>
+        <item quantity="many">%d páginas</item>
+        <item quantity="other">%d páginas</item>
+    </plurals>
+    <plurals name="unit_times">
+        <item quantity="one">%d vez</item>
+        <item quantity="many">%d veces</item>
+        <item quantity="other">%d veces</item>
+    </plurals>
+
+    <!-- Pantalla Hoy -->
+    <string name="greeting_morning">Buenos días</string>
+    <string name="greeting_afternoon">Buenas tardes</string>
+    <string name="greeting_night">Buenas noches</string>
+    <string name="today_ring_count">%1$d/%2$d</string>
+    <string name="today_ring_label">hábitos</string>
+    <string name="today_ring_done">¡hecho!</string>
+    <string name="today_message_rest">Hoy no hay nada obligatorio. Descansar también cuenta.</string>
+    <string name="today_message_start">Empieza por el más fácil. El primero tira del resto.</string>
+    <string name="today_message_progress">Buen ritmo. Sigue así.</string>
+    <string name="today_message_almost">¡Solo te queda uno!</string>
+    <string name="today_message_done">¡Día completo! Disfrútalo.</string>
+    <string name="today_week_progress">%1$d de %2$d esta semana</string>
+    <string name="today_optional">opcional hoy</string>
+    <string name="today_yesterday_missed">Ayer no salió, y no pasa nada. Lo que cuenta es volver: hoy es un buen día para retomarlo.</string>
+    <string name="today_yesterday_frozen">Un comodín protegió tu racha ayer. Sigue intacta: hoy vuelves a por ella.</string>
+    <string name="today_empty_title">Tu día empieza aquí</string>
+    <string name="today_empty_body">Crea tu primer hábito y márcalo con un toque. Mejor uno pequeño que puedas cumplir.</string>
+    <string name="today_rest_title">Hoy toca descansar</string>
+    <string name="today_rest_body">No tienes hábitos programados para hoy. Recarga pilas: mañana más.</string>
+    <string name="amount_sheet_target">Objetivo: %1$s</string>
+    <string name="amount_sheet_reset">Poner a cero</string>
+    <string name="amount_sheet_fill">Completar</string>
+
+    <!-- Notificaciones: permiso -->
+    <string name="notifications_banner_title">Activa los avisos</string>
+    <string name="notifications_banner_body">Para recordarte tus hábitos y avisarte si la racha está en riesgo, la app necesita permiso para enviar notificaciones.</string>
+    <string name="notifications_disabled_warning">Las notificaciones están desactivadas, así que este aviso no llegará.</string>
+
+    <!-- Notificaciones: contenido -->
+    <string name="channel_reminders_name">Recordatorios de hábitos</string>
+    <string name="channel_reminders_description">Avisos a la hora que elijas para cada hábito</string>
+    <string name="channel_streak_name">Racha en riesgo</string>
+    <string name="channel_streak_description">Aviso por la tarde si aún quedan hábitos por hacer</string>
+    <string-array name="reminder_messages">
+        <item>Es el momento. Un toque y listo.</item>
+        <item>Tu yo de mañana te lo va a agradecer.</item>
+        <item>Pequeño paso, gran costumbre.</item>
+        <item>¿Lo hacemos ahora y nos lo quitamos de encima?</item>
+        <item>Hoy también cuenta. ¡Vamos!</item>
+    </string-array>
+    <plurals name="notification_streak_title">
+        <item quantity="one">Tu racha de %d día sigue en juego</item>
+        <item quantity="many">Tu racha de %d días sigue en juego</item>
+        <item quantity="other">Tu racha de %d días sigue en juego</item>
+    </plurals>
+    <string name="notification_evening_title_no_streak">Aún estás a tiempo</string>
+    <plurals name="notification_streak_text">
+        <item quantity="one">Te queda %d hábito para completar el día.</item>
+        <item quantity="many">Te quedan %d hábitos para completar el día.</item>
+        <item quantity="other">Te quedan %d hábitos para completar el día.</item>
+    </plurals>
+    <string name="notification_streak_freeze_hint">Y si hoy no puede ser, tienes un comodín que la protege.</string>
+
+    <!-- Lista de hábitos -->
+    <string name="habits_title">Mis hábitos</string>
+    <string name="habits_empty_title">Aún no hay hábitos</string>
+    <string name="habits_empty_body">Empieza con uno o dos. Es más fácil añadir después que cumplir demasiados a la vez.</string>
+    <string name="habits_empty_area">Añadir un hábito de %1$s</string>
+    <string name="habits_archived">Archivados (%1$d)</string>
+    <string name="delete_dialog_title">¿Borrar este hábito?</string>
+    <string name="delete_dialog_body">«%1$s» y todo su historial se borrarán para siempre. La experiencia que ya ganaste con él se conserva.</string>
+
+    <!-- Crear / editar hábito -->
+    <string name="edit_title_new">Nuevo hábito</string>
+    <string name="edit_title_edit">Editar hábito</string>
+    <string name="edit_name_label">Nombre</string>
+    <string name="edit_name_placeholder">Ej.: Meditar 10 minutos</string>
+    <string name="edit_name_error">Ponle un nombre al hábito</string>
+    <string name="edit_area">Área</string>
+    <string name="edit_frequency">Frecuencia</string>
+    <string name="edit_frequency_daily">Cada día</string>
+    <string name="edit_frequency_days">Días fijos</string>
+    <string name="edit_frequency_weekly">Semanal</string>
+    <string name="edit_days_error">Elige al menos un día</string>
+    <string name="edit_target">Cantidad objetivo</string>
+    <string name="edit_target_hint">Opcional: minutos, repeticiones, vasos de agua…</string>
+    <string name="edit_target_amount">Cantidad</string>
+    <string name="edit_target_steps_hint">Se cuenta de uno en uno: cada toque suma 1. Mantén pulsado para ajustar.</string>
+    <string name="edit_target_full_hint">Un toque lo completa. Mantén pulsado para anotar una cantidad parcial.</string>
+    <string name="edit_reminder">Recordatorio</string>
+    <string name="edit_reminder_hint">Una notificación a la hora que elijas, solo si aún no lo has hecho</string>
+    <string name="edit_archive_hint">Archivar oculta el hábito pero conserva su historial; puedes recuperarlo cuando quieras. Borrar elimina también el historial.</string>
+
+    <!-- Detalle de hábito -->
+    <string name="detail_no_records">Aún no hay registros. El primero es el que más cuenta: márcalo hoy.</string>
+    <string name="detail_current_streak">Racha actual</string>
+    <string name="detail_best_streak">Mejor racha</string>
+    <string name="detail_total">Veces cumplido</string>
+    <string name="detail_compliance">Cumplimiento (%1$d sem.)</string>
+    <string name="detail_heatmap_title">Calendario</string>
+    <string name="detail_heatmap_subtitle">Últimas %1$d semanas</string>
+    <string name="detail_legend_pending">Sin hacer</string>
+    <string name="detail_legend_partial">A medias</string>
+    <string name="detail_legend_done">Hecho</string>
+    <string name="detail_weekly_title">Cumplimiento semanal</string>
+    <string name="detail_weekly_subtitle">Porcentaje de lo que tocaba cada semana</string>
+    <string name="detail_reminder_at">Recordatorio a las %1$s</string>
+    <string name="detail_archived">Archivado</string>
+
+    <!-- Progreso -->
+    <string name="progress_title">Progreso</string>
+    <string name="progress_xp_total">%1$d XP en total</string>
+    <string name="progress_xp_to_next">Faltan %1$d XP para el nivel %2$d</string>
+    <string name="progress_streak_label">de días completos seguidos</string>
+    <string name="progress_streak_best">Mejor racha: %1$s</string>
+    <string name="progress_streak_zero">Toda racha empieza con un día. Completa el de hoy y enciende la llama.</string>
+    <string name="progress_freezes_title">Comodines</string>
+    <string name="progress_freezes_explanation">Si un día fallas, un comodín se gasta solo y tu racha sigue viva.</string>
+    <string name="progress_freezes_max">Tienes el máximo de comodines guardados.</string>
+    <plurals name="progress_freezes_next">
+        <item quantity="one">Falta %d día completo para ganar otro</item>
+        <item quantity="many">Faltan %d días completos seguidos para ganar otro</item>
+        <item quantity="other">Faltan %d días completos seguidos para ganar otro</item>
+    </plurals>
+    <string name="progress_areas_title">Niveles por área</string>
+    <string name="progress_area_weakest">Aquí tienes más margen para crecer</string>
+    <string name="progress_week_title">Resumen semanal</string>
+    <string name="progress_week_overall">de cumplimiento esta semana</string>
+    <string name="progress_week_message_empty">Esta semana aún no hay nada que contar. Cuando marques tus hábitos, aquí verás cómo vas.</string>
+    <string name="progress_week_message_first">Tu primera semana con datos. A partir de la próxima podrás compararte contigo.</string>
+    <string name="progress_week_message_up">Vas mejor que la semana pasada. Lo estás notando, ¿verdad?</string>
+    <string name="progress_week_message_down">Semana algo más floja que la anterior. Pasa: elige un hábito y recupera el ritmo con ese.</string>
+    <string name="progress_week_message_same">Igual que la semana pasada. La constancia también es progreso.</string>
+    <string name="progress_week_legend">Barra gruesa: esta semana. Barra fina: la semana pasada.</string>
+
+    <!-- Logros -->
+    <string name="achievements_title">Logros</string>
+    <string name="achievements_count">%1$d de %2$d conseguidos</string>
+    <string name="achievements_empty_hint">Tu primera medalla está a un hábito de distancia.</string>
+    <string name="achievements_replay_hint">Toca una medalla conseguida para revivir el momento.</string>
+    <string name="achievements_progress">%1$d / %2$d</string>
+
+    <string name="ach_first_step_title">Primer paso</string>
+    <string name="ach_first_step_desc">Cumple tu primer hábito</string>
+    <string name="ach_first_full_day_title">Día redondo</string>
+    <string name="ach_first_full_day_desc">Completa todos los hábitos de un día</string>
+    <string name="ach_streak_7_title">Primera semana completa</string>
+    <string name="ach_streak_7_desc">7 días completos seguidos</string>
+    <string name="ach_streak_14_title">Dos semanas en llamas</string>
+    <string name="ach_streak_14_desc">14 días completos seguidos</string>
+    <string name="ach_streak_30_title">Un mes imparable</string>
+    <string name="ach_streak_30_desc">30 días de racha</string>
+    <string name="ach_streak_100_title">Centenario</string>
+    <string name="ach_streak_100_desc">100 días de racha</string>
+    <string name="ach_habit_streak_21_title">Ya es costumbre</string>
+    <string name="ach_habit_streak_21_desc">Mantén un mismo hábito 21 días seguidos</string>
+    <string name="ach_comeback_title">Volver a levantarse</string>
+    <string name="ach_comeback_desc">Completa un día justo después de fallar uno</string>
+    <string name="ach_safety_net_title">Red de seguridad</string>
+    <string name="ach_safety_net_desc">Un comodín salva tu racha</string>
+    <string name="ach_completions_50_title">Cogiendo ritmo</string>
+    <string name="ach_completions_50_desc">Cumple 50 hábitos en total</string>
+    <string name="ach_completions_250_title">Máquina de hábitos</string>
+    <string name="ach_completions_250_desc">Cumple 250 hábitos en total</string>
+    <string name="ach_completions_1000_title">Leyenda</string>
+    <string name="ach_completions_1000_desc">Cumple 1000 hábitos en total</string>
+    <string name="ach_diet_25_title">Buen provecho</string>
+    <string name="ach_diet_25_desc">Cumple 25 hábitos de dieta</string>
+    <string name="ach_diet_100_title">Chef de tu salud</string>
+    <string name="ach_diet_100_desc">Cumple 100 hábitos de dieta</string>
+    <string name="ach_training_25_title">Calentando motores</string>
+    <string name="ach_training_25_desc">Completa 25 entrenamientos</string>
+    <string name="ach_training_100_title">Cien entrenamientos</string>
+    <string name="ach_training_100_desc">Completa 100 entrenamientos</string>
+    <string name="ach_study_25_title">Mente despierta</string>
+    <string name="ach_study_25_desc">Cumple 25 hábitos de estudio</string>
+    <string name="ach_study_100_title">Rata de biblioteca</string>
+    <string name="ach_study_100_desc">Cumple 100 hábitos de estudio</string>
+    <string name="ach_relations_25_title">Buena gente</string>
+    <string name="ach_relations_25_desc">Cumple 25 hábitos de relaciones</string>
+    <string name="ach_relations_100_title">Corazón enorme</string>
+    <string name="ach_relations_100_desc">Cumple 100 hábitos de relaciones</string>
+    <string name="ach_level_5_title">Subiendo</string>
+    <string name="ach_level_5_desc">Alcanza el nivel 5</string>
+    <string name="ach_level_10_title">Veterano</string>
+    <string name="ach_level_10_desc">Alcanza el nivel 10</string>
+    <string name="ach_level_20_title">Maestro</string>
+    <string name="ach_level_20_desc">Alcanza el nivel 20</string>
+    <string name="ach_balance_title">Equilibrio</string>
+    <string name="ach_balance_desc">Lleva las cuatro áreas al nivel 3</string>
+
+    <!-- Celebraciones -->
+    <string name="celebration_day_title">¡Día completo!</string>
+    <plurals name="celebration_day_streak">
+        <item quantity="one">Llevas %d día completo. ¡Así se empieza!</item>
+        <item quantity="many">Llevas %d días completos seguidos.</item>
+        <item quantity="other">Llevas %d días completos seguidos.</item>
+    </plurals>
+    <string name="celebration_day_button">¡A por mañana!</string>
+    <string name="celebration_freeze_earned">Nuevo comodín</string>
+    <string name="celebration_level_title">¡Subes de nivel!</string>
+    <string name="celebration_level_general">Has alcanzado el nivel %1$d. Cada hábito cuenta.</string>
+    <string name="celebration_level_area">%1$s sube al nivel %2$d.</string>
+    <string name="celebration_level_button">Seguir</string>
+    <string name="celebration_achievement_label">Logro desbloqueado</string>
+    <string name="celebration_achievement_button">¡Genial!</string>
+
+    <!-- Ajustes -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_reminders_title">Avisos</string>
+    <string name="settings_evening_title">Aviso de racha en riesgo</string>
+    <string name="settings_evening_body">Por la tarde, solo si aún te quedan hábitos por hacer</string>
+    <string name="settings_evening_time">Hora del aviso</string>
+    <string name="settings_how_title">Cómo funciona</string>
+    <string name="settings_how_xp_title">Experiencia y niveles</string>
+    <string name="settings_how_xp_body">Cada hábito cumplido da 10 XP, y hasta 5 más si lo mantienes en racha. Esa experiencia sube el nivel de su área y tu nivel general.</string>
+    <string name="settings_how_day_title">Día completo</string>
+    <string name="settings_how_day_body">Al cumplir todo lo que tocaba hoy ganas un bonus de 20 XP, que crece con tu racha hasta 50. Los hábitos «X veces por semana» solo son obligatorios cuando ya no queda margen.</string>
+    <string name="settings_how_streak_title">Racha</string>
+    <string name="settings_how_streak_body">Cuenta los días completos seguidos. Los días sin nada programado no la rompen. La llama crece a los 3, 7, 14 y 30 días.</string>
+    <string name="settings_how_freeze_title">Comodines</string>
+    <string name="settings_how_freeze_body">Empiezas con uno y ganas otro cada 7 días completos seguidos (máximo 2). Si un día fallas, se gasta solo y la racha continúa. Y si se rompe, no pasa nada: se vuelve a empezar.</string>
+</resources>

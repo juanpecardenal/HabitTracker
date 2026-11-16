@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Android 13+: permiso para mostrar notificaciones (se pide en tiempo de ejecución). -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <!-- Alarmas exactas, para que los recordatorios lleguen a la hora elegida.
+         SCHEDULE_EXACT_ALARM cubre Android 12; USE_EXACT_ALARM, Android 13 en adelante.
+         Ojo: para publicar en Google Play, USE_EXACT_ALARM exige justificarlo. Si se
+         quita, la app sigue funcionando con alarmas inexactas (ver ReminderScheduler). -->
+    <uses-permission
+            android:name="android.permission.SCHEDULE_EXACT_ALARM"
+            android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM"/>
+    <!-- Para reprogramar los recordatorios después de reiniciar el móvil. -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+            android:name=".HabitApp"
+            android:allowBackup="true"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:fullBackupContent="@xml/backup_rules"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.HabitTracker">
+        <activity
+                android:name=".MainActivity"
+                android:exported="true"
+                android:launchMode="singleTop"
+                android:windowSoftInputMode="adjustResize"
+                android:theme="@style/Theme.HabitTracker">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Recibe las alarmas de los recordatorios. -->
+        <receiver
+                android:name=".notifications.ReminderReceiver"
+                android:exported="false"/>
+
+        <!-- Reprograma las alarmas al arrancar el móvil o cambiar la hora. -->
+        <receiver
+                android:name=".notifications.BootReceiver"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

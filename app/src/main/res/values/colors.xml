@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fondo de la ventana mientras arranca Compose (igual que el del tema). -->
+    <color name="app_background">#FFFBF7F1</color>
+    <color name="launcher_background_start">#FF6C56F0</color>
+    <color name="launcher_background_end">#FF4530B8</color>
+</resources>
