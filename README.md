@@ -44,7 +44,6 @@ Aplicación Android para crear hábitos y mantenerlos en el tiempo, con un siste
 - **Niveles** generales y por área.
 - **Racha global** de días completos seguidos; los días sin nada programado no la rompen. La llama crece a los 3, 7, 14 y 30 días.
 - **Comodines:** empiezas con uno y ganas otro cada 7 días completos seguidos (máximo 2). Si fallas un día, se gasta solo y la racha sigue viva.
-- **24 logros** (primer paso, rachas de 7/14/30/100 días, 21 días con un mismo hábito, totales de 50/250/1000, logros por área y por nivel, «Equilibrio»…).
 - **Celebraciones** animadas con confeti al completar el día, subir de nivel o desbloquear un logro.
 
 ### Progreso y estadísticas
